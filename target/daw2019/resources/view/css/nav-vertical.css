@@ -1,0 +1,139 @@
+body{
+	background: #f8fafc;
+}
+.bg_white{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(#ffffff00, #ffffff);
+}
+.nav-vertical{
+	position: fixed;
+	width: 250px;
+	/*width: 0;*/
+	height: 100vh;
+	background: #fff;
+	box-shadow: 0px 15px 24px #0066ff33;
+	overflow-x: hidden;
+	transition: .5s;
+}
+.width-0{
+	width: 0;
+}
+.width-100{
+	width: 100vw;
+}
+.nav-vertical .nav-header{
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 200px;
+	background: url("../images/material_bg.png");
+	background-size: 100% 100%;
+	color: #444;
+}
+
+.nav-vertical .nav-header .nav_header_conteudo{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.nav-vertical .nav-header .nav_header_conteudo img{
+	position: relative;
+	width: 80px;
+}
+.nav-vertical .nav-header .nav_header_conteudo>*{
+	position: relative;
+	/*width: 80px;*/
+	/*top: 50%;*/
+	left: 50%;
+	transform: translateX(-50%);
+	/*color:#fff;*/
+}
+.nav-vertical .nav_menu{
+	width: 100%;
+	position: relative;
+	float: left;
+	margin-top: 20px;
+	min-height: 50px;
+	/*padding-left: 20px;*/
+}
+.nav-vertical .nav_menu .option_group{
+	margin-top: 5px;
+	width: 100%;
+	overflow-y: hidden;
+	transition: .5s;
+	color: #444;
+	overflow-x: hidden;
+	/*padding-left: 20px;*/
+}
+.nav-vertical .nav_menu .option_group:hover{
+	width: 100%;
+	/*left:-20px;*/
+	/*padding-left: 20px;*/
+	color: #06f;
+	background: #ddd;
+}
+.nav-vertical .nav_menu .option_group:hover .option_type{
+	background: #ccc;
+}
+.option_type{
+	width: 100%;
+	padding-top:5px;
+	padding-left: 20px;
+}
+.option_item{
+	/*padding-left: 10px;*/
+	width: 100%;
+}
+.option_item:hover{
+	transition: .1s;
+	padding-left: 20px;
+	color: #00f;
+}
+.nav-vertical .nav_menu .option_group:hover .option_itens{
+	max-height: 200px;
+	margin-left: 10px;
+}
+.nav-vertical .nav_menu .option_group .option_itens{
+	width: 100%;
+	max-height: 0;
+	transition: .5s;
+	padding-left: 20px;
+}
+.main{
+	position: relative;
+	width: calc(100% - 250px);
+	/*width: 100%;*/
+	float: right;
+	min-height: 100px;
+	transition: .5s;
+	padding-top: 60px;
+}
+.main-100{
+	width: 100% !important;
+}
+.main .nav_horizontal{
+	z-index: 1000;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 50px;
+	background: #fff;
+	box-shadow: 0px 5px 10px #0066ff33;
+}
+.main .nav_horizontal .bt-menu{
+	position: relative;
+	margin-left: 20px;
+	top: 50%;
+	transform: translateY(-50%);
+	/*padding: 5px;*/
+	font-size: 25px;
+	background: transparent;
+	border: none;
+	color: #666;
+	/*transition: 1s;*/
+}

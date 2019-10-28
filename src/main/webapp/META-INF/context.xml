@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/sgcerci2">
+  <Resource auth="Container" driverClassName="org.mysql.Driver" name="jdbc/smsdb" password="" type="javax.sql.DataSource" url="jdbc:mysql://localhost:8080/smsconnect" username="root"/>
+</Context>

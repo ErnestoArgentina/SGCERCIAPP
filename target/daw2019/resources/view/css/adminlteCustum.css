@@ -1,0 +1,9 @@
+.fl{
+	position: relative;
+	float: left;
+}
+tbody .col{
+	position: relative;
+	float: left;
+	max-width: 42px;
+}

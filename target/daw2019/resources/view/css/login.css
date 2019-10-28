@@ -1,0 +1,114 @@
+/*//////////////////////////////////////////////////*/
+/*/////////////////////LOGIN///////////////////////*/
+/*/////////////////////////////////////////////////*/
+#login{
+    top: 0;
+    left: 0;
+    /*left: -100vw;*/
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    /*background-image: url("../images/bg/cameraman.jpg");*/
+    background-image: url("../images/bg/mercedes1.jpg");
+    background-size: 100% 100%;
+    z-index: 1003;
+    transition: 1s;
+}
+#login .navbar-login{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background: #00000022;
+    color: #fff;
+}
+#login .footer-login{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-height: 50px;
+    background: #00000022;
+    color: #fff;
+}
+#login .bg-transparent-login{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #00000088;
+}
+#login #painel-login{
+    position: absolute;
+    height: 300px;
+    width: 250px;
+    background: #fff;
+    left: 50%;
+    top: 50%;
+    transform-origin: left;
+    transform: translate(-50%,-50%);
+    /*transform: translate(-50%,-50%) rotateY(90deg);*/
+    border-radius: 10px;
+    /*//viagens*/
+    /*transform: rotate3d(0,0,0,95deg);*/
+}
+#login #painel-signup{
+    position: absolute;
+    max-height: 600px;
+    height: 350px;
+    max-width: 650px;
+    width: 100%;
+    background: #fff;
+    left: 50%;
+    top: 50%;
+    transform-origin: right;
+    transform: translate(-50%,-50%);
+    /*transform: translate(-50%,-50%) rotateY(90deg);*/
+    border-radius: 10px;
+    /*//viagens*/
+}
+#login #painel-login .foto{
+    position: absolute;
+    left: 50%;
+    top: -40px;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    border-radius: 50%;
+    overflow: hidden;
+}
+#login #painel-login .foto img{
+    width: 100%;
+    height: 100%;
+}
+#login .login-header{
+    position: absolute;
+    left: 50%;
+    top: -30px;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 60px;
+    background: #06f;
+    border-radius: 5px;
+    overflow: hidden;
+    color: #fff;
+    box-shadow: 0 5px 10px #0066ff50;
+}
+#login  .formulario{
+    position: relative;
+    margin-top: 60px;
+}
+#login .formulario form{
+    padding: 10px;
+    width: 100%;
+}
+#login .formulario form input{
+    width: calc(100% - 10px);
+    border: none;
+    border-bottom: 2px solid #06f;
+}
+#login .formulario-signup form input{
+    width: calc(100% - 10px);
+    border: none;
+    border-bottom: 2px solid #06f;
+}
+
